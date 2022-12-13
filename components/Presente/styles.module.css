@@ -1,0 +1,56 @@
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.presente{
+    width: 10rem;
+    height: 10rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 0.3rem;
+}
+
+.tampa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10rem;
+    height: 2.5rem;
+    background: #7AA944;
+    z-index: 1;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    border-radius: 0.1rem;
+}
+
+.corpo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 9rem;
+    height: 7rem;
+    background: #5C7E32;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 3px 3px 0px;
+    border-radius: 0rem 0rem 0.1rem 0.1rem;
+}
+
+.lacoVertical{
+    position: absolute;
+    width: 1.5rem;
+    height: 7rem;
+    background: #F00;
+    border: 0.05rem solid #333;
+}
+
+.lacoHorizontal{
+    position: absolute;
+    width: 9rem;
+    height: 1.5rem;
+    background: #F00;
+    border: 0.05rem solid #333;
+}
