@@ -8,6 +8,9 @@
 }
 
 .estrutura{
+    width: 21rem;
+    height: 31rem;
+    background-color: #0005;
     border-top: 0.5rem solid #bc6c25;
     border-left: 0.5rem solid #bc6c25;
     border-right: 0.5rem solid #bc6c25;
@@ -61,6 +64,7 @@
 }
 
 .basePorta {
+    z-index: 1;
     width: 22rem;
     height: 1rem;
     background: #9b2226;
