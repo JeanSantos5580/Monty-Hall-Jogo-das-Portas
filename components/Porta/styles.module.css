@@ -8,6 +8,8 @@
 }
 
 .estrutura{
+    display: flex;
+    flex-direction: column-reverse;
     width: 21rem;
     height: 31rem;
     background-color: #0005;

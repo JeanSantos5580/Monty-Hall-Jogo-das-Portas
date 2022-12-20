@@ -1,5 +1,6 @@
 import styles from "./styles.module.css"
 import PortaModel from "../../model/porta"
+import Presente from "../Presente/Presente"
 
 
 interface PortaProps {
@@ -22,10 +23,7 @@ export default function Porta(props: PortaProps) {
         return (
             <div className={styles.porta} >
                 <div className={styles.numero}>{porta.numero}</div>
-                <div
-                    className={styles.macaneta}
-                    onClick={abrir}
-                ></div>
+                <div onClick={abrir} className={styles.macaneta}></div>
             </div>
         )
     }
@@ -36,7 +34,12 @@ export default function Porta(props: PortaProps) {
             onClick={alternarSelecao}
         >
             <div className={`${styles.estrutura} ${portaSelecionada}`}>
-                {porta.aberta ? false : renderizarPorta()}
+                {porta.fechada ? 
+                renderizarPorta() : 
+
+                porta.temPresente ? 
+                <Presente/> : 
+                false}
             </div>
 
             <div className={styles.basePorta}></div>
