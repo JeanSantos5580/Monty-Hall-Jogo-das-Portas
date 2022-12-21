@@ -1,0 +1,76 @@
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu{
+    display: flex;
+    flex-direction: column;
+}
+
+.cartao{
+   display: flex; 
+   width: 30rem;
+   height: 30rem;
+   margin: 3px;
+   font-size: 4rem;
+   font-weight: bold;
+   padding: 20px;
+}
+
+.l1, .l2{
+    display: flex;
+}
+
+.l1>div:nth-child(1){
+    display: flex;
+    align-items: center;
+    background: #C0392C;
+    border-radius: 10px;
+    -moz-transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.l1>div:nth-child(1):hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    -moz-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
+
+.l1>div:nth-child(2){
+    display: flex;
+    align-items: center;
+    background: #FFFFFF;
+    border-radius: 10px;
+}
+
+
+.l2>div:nth-child(1){
+    display: flex;
+    align-items: center;
+    background: #FFFFFF;
+    border-radius: 10px;
+}
+
+.l2>div:nth-child(2){
+    display: flex;
+    align-items: center;
+    background: #28A085;
+    border-radius: 10px;
+    cursor: pointer;
+    -moz-transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.l2>div:nth-child(2):hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    -moz-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}

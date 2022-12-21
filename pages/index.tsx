@@ -1,16 +1,9 @@
 import { useRouter } from "next/router"
+import Menu from "../components/Menu"
 
-export default function Home() {
-
-    const router = useRouter()
-
-    const handleClick = () => {
-        router.push('/jogo')
-    }
+export default function Formulario() {
 
     return (
-        <div>
-            <button onClick={handleClick}>Jogar</button>
-        </div>
+        <Menu/>
     )
 }
